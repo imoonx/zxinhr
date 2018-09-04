@@ -1,0 +1,50 @@
+/* 横屏手机或平板 */
+@media screen and (max-width: 1200px) {
+
+    html,
+    body {
+        background: #fff;
+        width: 100%;
+        height: auto;
+    }
+
+    .dhbg {
+        height: 60px;
+    }
+
+    .top-content {
+        width: 80%;
+    }
+
+    .navUl {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .navUl li.navli-10,
+    .navUl li.navli-14 {
+        line-height: 60px;
+    }
+
+    .navUl a {
+        font-size: 16px;
+    }
+
+    .slideDown {
+        top: 60px;
+    }
+
+    .footnr {
+        width: 80%;
+    }
+
+    .zaixian {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 920px) {}
+
+/* 竖屏手机 */
+@media screen and (max-width: 620px) {}

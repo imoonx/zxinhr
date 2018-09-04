@@ -31,13 +31,6 @@ div {
 	font-size: 12px;
 }
 
-.logonr {
-	width: 100%;
-	height: 90px;
-	margin: 0 auto;
-	background: #f6f6f6;
-}
-
 .dhbg {
 	width: 100%;
 	background: #272636;
@@ -62,20 +55,20 @@ img {
 	line-height: 40px;
 }
 
-.navUl li.navli-10 {
-	width: 10.5%;
+.navUl li.navli-10,
+.navUl li.navli-14 {
 	height: 100%;
 	display: inline-block;
 	line-height: 40px;
 	text-align: center;
 }
 
+.navUl li.navli-10 {
+	width: 10.5%;
+}
+
 .navUl li.navli-14 {
 	width: 13%;
-	height: 100%;
-	display: inline-block;
-	line-height: 40px;
-	text-align: center;
 	position: relative;
 }
 
@@ -88,7 +81,7 @@ img {
 }
 
 .navUl li:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	background: #3e3d4d;
 }
 
@@ -218,7 +211,6 @@ img {
 	display: none;
 }
 
-/* 	background: #2f333f; */
 .footbg {
 	width: 100%;
 	height: 15%;
@@ -244,12 +236,18 @@ img {
 	line-height: 2em;
 }
 
+.content {
+	width: 100%;
+	height: 80%;
+	background: #f00;
+}
+
 .zaixian {
 	width: 70%;
 	background: #FFFFFF;
 	margin: 0 auto;
 	height: auto !important;
-	min-height: 600px;
+	height: 80%;
 	padding: 2em 2em 5em 2em;
 }
 
