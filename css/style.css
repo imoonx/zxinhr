@@ -1,0 +1,281 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background: #F0F0F0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+ul,
+li,
+table,
+tr,
+td,
+img,
+a,
+p,
+div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 12px;
+}
+
+.logonr {
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	background: #f6f6f6;
+}
+
+.animated_opacity {
+	opacity: 1;
+	filter: Alpha(opacity=100);
+	transition: opacity 2s;
+}
+
+.dhbg {
+	width: 100%;
+	background: #272636;
+	height: 40px;
+}
+
+.top-content {
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.navUl {
+	width: 100%;
+	display: inline;
+	height: 40px;
+	line-height: 40px;
+}
+
+.navUl li.navli-10 {
+	width: 10.5%;
+	height: 100%;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+}
+
+.navUl li.navli-14 {
+	width: 13%;
+	height: 100%;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+}
+
+.navUl a {
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.navUl li:hover {
+	text-decoration: underline;
+	background: #3e3d4d;
+}
+
+.navUl li a:hover {
+	text-decoration: none;
+	color: #f13547;
+}
+
+.slideDown {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+	z-index: 2;
+	background: rgba(31, 35, 46, 0.9);
+	overflow: hidden;
+	width: 125%;
+}
+
+.slideDown ul li {
+	border-bottom: #272636 dashed 1px;
+}
+
+.slideDown ul li a {
+	padding: 0 5px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.slideDown ul li:hover {
+	background: #272636;
+	text-decoration: none;
+}
+
+.slideDown ul li {
+	height: 36px;
+	line-height: 36px;
+}
+
+/* 轮播模块 */
+.slideBox {
+	height: 608px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideBox .hd {
+	position: absolute;
+	left: 50%;
+	float: center;
+	height: 15px;
+	overflow: hidden;
+	right: 5px;
+	bottom: 10px;
+	z-index: 1;
+}
+
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+	float: center;
+}
+
+.slideBox .hd ul li {
+	float: left;
+	margin-left: 20px;
+	width: 14px;
+	height: 14px;
+	border-radius: 10px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.slideBox .hd ul li.on {
+	background: #f00;
+	width: 13px;
+	height: 13px;
+}
+
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+
+.slideBox .bd li {
+	zoom: 1;
+	vertical-align: middle;
+}
+
+.slideBox .bd img {
+	width: 1000px;
+	height: 608px;
+	display: block;
+}
+
+.slideBox .prev,
+.slideBox .next {
+	position: absolute;
+	left: 13%;
+	top: 50%;
+	display: block;
+	width: 32px;
+	height: 40px;
+	background: url(../imgs/slider-arrow.png) -110px 5px no-repeat;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.slideBox .next {
+	left: auto;
+	right: 12%;
+	background-position: 8px 5px;
+}
+
+.slideBox .prev:hover,
+.slideBox .next:hover {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.slideBox .prevStop {
+	display: none;
+}
+
+.slideBox .nextStop {
+	display: none;
+}
+
+/* 	background: #2f333f; */
+.footbg {
+	width: 100%;
+	height: 15%;
+	margin: 0 auto;
+	background: #2f333f;
+}
+
+.footnr {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.footnr p {
+	font-size: 1.3em;
+	color: #fff;
+	text-indent: 2em;
+	line-height: 2em;
+}
+
+.zaixian {
+	width: 70%;
+	background: #FFFFFF;
+	margin: 0 auto;
+	height: auto !important;
+	min-height: 600px;
+	padding: 2em 2em 5em 2em;
+}
+
+.span_red_title {
+	line-height: 2em;
+	color: red;
+	font-size: 1.6em;
+	font-family: Tahoma;
+}
+
+.span_red {
+	line-height: 2em;
+	color: red;
+	font-size: 1.6em;
+	font-family: Tahoma;
+}
+
+.span_black_title {
+	line-height: 2em;
+	color: black;
+	margin: 1em;
+	font-size: 2em;
+}
+
+.span_black {
+	line-height: 2em;
+	color: black;
+	font-size: 1.6em;
+}
