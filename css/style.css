@@ -227,10 +227,14 @@ img {
 }
 
 .footnr {
-	width: 1000px;
+	width: 60%;
 	height: 100%;
 	margin: 0 auto;
 	padding: 1em;
+}
+
+.footnr img {
+	width: 100%;
 }
 
 .footnr p {
