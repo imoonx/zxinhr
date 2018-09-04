@@ -117,10 +117,13 @@
     }
 
     .span_red_title,
-    .span_red,
-    .span_black {
+    .span_red {
         line-height: 1.5em;
         font-size: 1.5em;
+    }
+
+    .span_black {
+        font-size: 1.3em;
     }
 
     .span_black_title {

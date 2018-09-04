@@ -281,18 +281,12 @@ img {
 	font-size: 2em;
 }
 
-.span_black {
-	line-height: 2em;
-	color: #222;
-	font-family: Tahoma;
-	font-size: 1.4em;
-}
-
+.span_black,
 .contact-p {
-	font-size: 1.5em;
+	line-height: 2em;
 	color: black;
 	font-family: Tahoma;
-	line-height: 2em
+	font-size: 1.5em;
 }
 
 .contact-span {
