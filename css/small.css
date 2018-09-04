@@ -44,7 +44,7 @@
     }
 
     .zaixian {
-        width: 80%;
+        width: 100%;
         min-height: 700px;
     }
 }
@@ -100,7 +100,7 @@
     }
 
     .zaixian {
-        width: 90%;
+        width: auto;
         min-height: 700px;
     }
 
