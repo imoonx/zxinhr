@@ -5,7 +5,7 @@ r8 =0000000000000000 r9 =0000000000000000 r10=00000000FFFFC900
 r11=0000000000000007 r12=0000000000000000 r13=00000000FFFFCAB0
 r14=0000000000000000 r15=00000000FFFFCAAC
 rbp=00000000FFFFCCC0 rsp=00000000FFFFCA38
-program=D:\develop\Git\install\Git\usr\bin\vim.exe, pid 22592, thread main
+program=D:\develop\Git\install\Git\usr\bin\vim.exe, pid 18800, thread main
 cs=0033 ds=002B es=002B fs=0053 gs=002B ss=002B
 Stack trace:
 Frame        Function    Args

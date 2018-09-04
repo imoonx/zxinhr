@@ -275,20 +275,23 @@ img {
 
 .span_black_title {
 	line-height: 2em;
-	color: black;
+	color: #222;
 	margin: 1em;
+	font-family: Tahoma;
 	font-size: 2em;
 }
 
 .span_black {
 	line-height: 2em;
-	color: black;
+	color: #666;
+	font-family: Tahoma;
 	font-size: 1.6em;
 }
 
 .contact-p {
 	font-size: 1.5em;
 	color: black;
+	font-family: Tahoma;
 	line-height: 2em
 }
 
