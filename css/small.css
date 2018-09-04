@@ -100,8 +100,54 @@
     }
 
     .zaixian {
-        width: 80%;
+        width: 90%;
         min-height: 700px;
     }
 
+    .contact-p {
+        line-height: 1.5em
+    }
+
+    .contact-span {
+        font-size: 1.5em;
+    }
+
+    .prospect-p {
+        line-height: 1.5em;
+    }
+
+    .span_red_title,
+    .span_red,
+    .span_black {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .span_black_title {
+        line-height: 2.0em;
+        font-size: 1.6em;
+    }
+
+    /* 轮播模块 */
+    .slideBox {
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slideBox .bd img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .campaign {
+        width: 100%;
+        height: auto;
+    }
+
+    .slideBox .prev,
+    .slideBox .next {
+        zoom: 0.6;
+    }
 }
