@@ -45,7 +45,7 @@
 
     .zaixian {
         width: 80%;
-        height: 80%;
+        min-height: 700px;
     }
 }
 
@@ -69,7 +69,8 @@
         width: 35%;
         position: absolute;
         z-index: 10;
-        padding-top: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
     }
 
     .header img {
@@ -84,13 +85,23 @@
     .navli-10,
     .navli-14 {
         width: 100%;
-        height: 30px;
+        height: 40px;
         text-align: center;
-        font-size: 16px;
         color: #333;
+    }
+
+    .navli-10 a,
+    .navli-14 a {
+        font-size: 1.5em;
     }
 
     .footnr p {
         line-height: 1.5em;
     }
+
+    .zaixian {
+        width: 80%;
+        min-height: 700px;
+    }
+
 }
