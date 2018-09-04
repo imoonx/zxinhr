@@ -16,6 +16,11 @@
         width: 80%;
     }
 
+    .header img {
+        width: 100%;
+        height: 130px;
+    }
+
     .navUl {
         height: 60px;
         line-height: 60px;
@@ -47,4 +52,45 @@
 @media screen and (max-width: 920px) {}
 
 /* 竖屏手机 */
-@media screen and (max-width: 620px) {}
+@media screen and (max-width: 620px) {
+    .menu {
+        width: 32px;
+        height: 32px;
+        background: url('../imgs/menu.svg');
+        display: block;
+        z-index: 1;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+
+    .div-menu {
+        background: #f0f0f0;
+        width: 35%;
+        position: absolute;
+        z-index: 10;
+        padding-top: 5%;
+    }
+
+    .header img {
+        width: 100%;
+        height: 70px;
+    }
+
+    .dhbg {
+        display: none;
+    }
+
+    .navli-10,
+    .navli-14 {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .footnr p {
+        line-height: 1.5em;
+    }
+}
