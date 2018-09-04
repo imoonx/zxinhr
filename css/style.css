@@ -3,6 +3,8 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #F0F0F0;
+	width: 100%;
+	height: 100%;
 }
 
 h1,
@@ -34,12 +36,6 @@ div {
 	height: 90px;
 	margin: 0 auto;
 	background: #f6f6f6;
-}
-
-.animated_opacity {
-	opacity: 1;
-	filter: Alpha(opacity=100);
-	transition: opacity 2s;
 }
 
 .dhbg {

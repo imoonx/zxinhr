@@ -6,10 +6,8 @@ $(function () {
 
     var footer = '<div class="footbg"><div class="footnr"><img class="footerImg"/><p>河南卓鑫人力资源有限公司经工商局注册，诚信经营，以人为本，为广大企业输出高质量员工。解决企业用人之急并保障员工的合法权益。 为响应国家一带一路大发展的政策，带动广大人群走出去、挣到钱做出了我们应有的贡献！公司组建的是一支有组织、有纪律、有保障、有诚信、有资质的正规对外劳务派遣机构，为社会稳定和促进和谐社会的发展贡献自己的力量！</p></div></div>'
 
-
     $(".header").append(header);
     $(".footer").append(footer);
-
     if (strUrl.match(reg)) {
         $(".footerImg").attr("src", "imgs/foot.png");
         $(".home").attr("href", "index.html");
