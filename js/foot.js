@@ -1,5 +1,8 @@
 $(function () {
     var strUrl = window.location.href;
+
+    alert(strUrl);
+
     var reg = RegExp(/index/);
 
     var header = '<img style="width: 100%; height: 10%;" class="footerImg" /><div class="dhbg"><div class="top-content"><ul class="navUl"><li class="navli-10"><a class="home">首页</a></li><li class="navli-10"><a class="zhuanzhi">专职</a></li><li class="navli-10"><a class="jianhzi">兼职</a></li><li class="navli-14"><a class="univerity">合作院校</a></li><li class="navli-14"><a class="company">合作企业</a></li><li class="navli-14"><a class="example">成功案例</a></li><li class="navli-14"><a class="problem">常见问题</a></li><li class="navli-14 lino6"><a href="javascript:;">关于我们</a><div class="slideDown"><ul><li><a class="contact">公司介绍</a></li><li><a class="culture">公司文化</a></li><li><a class="prospect">发展前景</a></li></ul></div></li></ul></div></div>';
