@@ -79,6 +79,7 @@
         z-index: 10;
         padding-top: 3%;
         padding-bottom: 5%;
+        box-shadow: 5px 5px 10px #999;
     }
 
     .header img {
