@@ -46,10 +46,18 @@
     .zaixian,
     .new-zaixian {
         width: auto;
+        min-height: 950px;
     }
 }
 
-@media screen and (max-width: 920px) {}
+@media screen and (max-width: 920px) {
+
+    .zaixian,
+    .new-zaixian {
+        width: auto;
+        min-height: 600px;
+    }
+}
 
 /* 竖屏手机 */
 @media screen and (max-width: 620px) {
@@ -102,6 +110,7 @@
     .zaixian,
     .new-zaixian {
         width: auto;
+        min-height: 300px;
     }
 
     .contact-p {
