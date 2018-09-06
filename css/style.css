@@ -316,7 +316,7 @@ img {
 	margin: 0 auto;
 	height: auto !important;
 	min-height: 800px;
-	padding-bottom: 5em;
+	padding-bottom: 5px;
 }
 
 .main {
@@ -338,6 +338,11 @@ img {
 
 .new {
 	margin-left: 10px;
+}
+
+.new-zaixian hr {
+	width: auto;
+	background: #222;
 }
 
 .new-title {
