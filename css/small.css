@@ -159,14 +159,19 @@
     }
 
     .new-img {
-        zoom: 0.5;
+        zoom: 0.7;
     }
 
     .new-title {
         font-size: 15px;
+        overflow-y: hidden;
     }
 
     .new-content {
-        font-size: 13px;
+        display: none;
+    }
+
+    .new-time {
+        margin-top: 25px;
     }
 }
