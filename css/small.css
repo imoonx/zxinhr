@@ -43,9 +43,9 @@
         width: 80%;
     }
 
-    .zaixian {
-        width: 100%;
-        min-height: 700px;
+    .zaixian,
+    .new-zaixian {
+        width: auto;
     }
 }
 
@@ -99,9 +99,9 @@
         line-height: 1.5em;
     }
 
-    .zaixian {
+    .zaixian,
+    .new-zaixian {
         width: auto;
-        min-height: 700px;
     }
 
     .contact-p {
@@ -152,5 +152,21 @@
     .slideBox .prev,
     .slideBox .next {
         zoom: 0.6;
+    }
+
+    .main {
+        padding: 1em;
+    }
+
+    .new-img {
+        zoom: 0.5;
+    }
+
+    .new-title {
+        font-size: 15px;
+    }
+
+    .new-content {
+        font-size: 13px;
     }
 }
